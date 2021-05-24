@@ -8,9 +8,11 @@ function random(num) {
     let backgroundColor = document.getElementById("color");
     let p = document.getElementById("title");
     let missing = document.getElementById("missing");
+    let bold = document.getElementById("bold");
     color = colors[num]
     //CHANGES VALUES
     backgroundColor.style.backgroundColor = color;
+    bold.style.color = color;
     p.innerHTML = ("BACKGROUND COLOR IS: " + color);
     console.log(backgroundColor.style.color = color);
     missing.innerHTML = ("Missing " + counter);
