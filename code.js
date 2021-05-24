@@ -18,8 +18,9 @@ function random(num) {
     colors.splice(num, 1);
 
     //COUNTER AND LETS USER KNOW THAT THERE ARE NO MORE COLORS
-    if (counter == 0) {
+    if (counter == 1) {
         alert("You have found every color");
+        p.style.fontSize ="28pt";
         p.innerHTML = "You have found every color congrats. Refreash to do it all again";
         missing.innerHTML = ("Missing 0");
     }
