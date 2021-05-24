@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Color Picker</title>
 </head>
-<body>
+<header>
+    <h1>
+        Color Picker
+    </h1>
+</header>
+
+<body id="color">
     <main>
+        <div class="color-background">
+            <div class="prompt">
+                <h1 id="title">BACKGROUND COLOR IS: White </h1>
+                <a href="#" onclick="change()">CLICK ME PLEASE</a>
+                <p>Click the button above to randomly generate a background color. Can you get them all?</p>
+                <p id="missing">Missing 10</p>
+            </div>
+        </div>
 
     </main>
-
-    
+    <script src="code.js"></script>
 </body>
+<footer>
+    <h1>
+        Jose Amarante
+    </h1>
+</footer>
+
 </html>

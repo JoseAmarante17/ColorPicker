@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior:smooth;
+  
+
+}
+* ::-webkit-scrollbar {
+     display: none;
+}
+
+header{
+    background-color: rgb(64, 177, 139);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: black 5px 5px 10px ;
+}
+header h1{
+    font-size: 50pt;
+    margin: 5px;
+}
+
+/*
+
+BODY: THIS PART CHANGES
+
+*/
+
+main{
+height: 80vh;
+}
+.color-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 12%;
+}
+
+.prompt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: black 5px solid;
+    border-radius: 15px;
+    margin-left:20%;
+    margin-right: 20%;
+    padding: 15px;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    color: white;
+}
+.prompt h1{
+    font-size: 50pt;
+}
+.prompt a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 1%;
+    transition: 150ms;
+    box-shadow: 0px 2px 2px 1px white;
+}
+
+.prompt a:hover{
+    color: white;
+    font-weight: bold;
+    transition: 150ms;
+    margin: 1%;
+    margin-bottom: 2%;
+    transform: scale(1.35);
+}
+
+.prompt a:active{
+    transition: 150ms;
+    transform: scale(1.15);
+}
+
+#missing ,p{
+    font-size: 15pt;
+}
+
+/*
+BODY: ENDS
+*/
+
+footer{
+    background-color: rgb(64, 177, 139);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: black 5px 5px 10px ;
+}
+
+footer h1{
+    font-size: 50pt;
+    margin: 5px;
+}
+ @media screen and (max-width:700px) {
+     
+ }
+
