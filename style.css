@@ -12,7 +12,7 @@
 }
 
 header{
-    background-color: rgb(64, 177, 139);
+    background-color:  linear-gradient(248deg, rgba(0, 162, 255, 0.795), rgba(0, 255, 234, 0.712));
     text-align: center;
     padding: 5px;
     color: white;
@@ -93,7 +93,7 @@ BODY: ENDS
 */
 
 footer{
-    background-color: rgb(64, 177, 139);
+    background-color:  linear-gradient(248deg, rgba(0, 162, 255, 0.795), rgba(0, 255, 234, 0.712));
     text-align: center;
     padding: 5px;
     color: white;
