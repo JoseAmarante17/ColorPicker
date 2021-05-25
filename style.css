@@ -12,7 +12,7 @@
 }
 
 header{
-    background-color:  linear-gradient(248deg, rgba(0, 162, 255, 0.795), rgba(0, 255, 234, 0.712));
+    background-image:  linear-gradient(248deg, rgb(92 175 222 / 80%), rgb(4 241 221 / 75%));
     text-align: center;
     padding: 5px;
     color: white;
@@ -93,7 +93,7 @@ BODY: ENDS
 */
 
 footer{
-    background-color:  linear-gradient(248deg, rgba(0, 162, 255, 0.795), rgba(0, 255, 234, 0.712));
+     background-image:  linear-gradient(248deg, rgb(4 241 221 / 75%),rgb(92 175 222 / 80%));;
     text-align: center;
     padding: 5px;
     color: white;
